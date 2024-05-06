@@ -3,6 +3,8 @@ import "./Body.css";
 import i1 from "../../assets/i1.png";
 import i2 from "../../assets/i2.png";
 import i3 from "../../assets/i3.png";
+import iSmall from "../../assets/nodeSmallPointer.png";
+
 import line from "../../assets/bodyLine.png";
 import nodePointer from "../../assets/nodePointer.png";
 const Body = () => {
@@ -10,15 +12,35 @@ const Body = () => {
     <div className="body bg-white">
       {/* -----------------------------content1: Node operators------------------------------------------- */}
       <div className="content1 p-6 flex flex-col md:flex-row  gap-36">
-        <img src={i1} />
+        
+        <img  src={i1} />
+        
         <div className=" NodeText">
-          <img src={nodePointer} />
+          <img className="nomralPointer" src={nodePointer} />
+          
+        
           <br />
           <br />
+          <div>
+            
+        <div className="iSmall "  >
+        <div className="ball">
+          
+        </div>
+        </div>
+        
+          </div>
+          
           <h1 className="contentText text-4xl text-black ">Node Operators</h1>
+          {/* <div>
+            
+        <img className="iSmall " src={iSmall} />
+          </div> */}
           <p className="text-black my-8">
+          
             Become a cornerstone of digital advertising. Own a smart digital
             screen and start earning as advertisers choose your prime ad slots.
+            
           </p>
           <button
             className="bg-white
@@ -60,9 +82,9 @@ const Body = () => {
           
           <h1 className="contentText text-4xl text-black ">
             Advertise with{" "}
-            <h1 style={{ color: "rgba(252, 54, 3, 1)" }}> WorldAds</h1>
+            <h2 className="worldAds" style={{ color: "rgba(252, 54, 3, 1)" }}> WorldAds</h2>
           </h1>
-          <p className="text-black my-8" style={{width: '330px'}}>
+          <p className="adText text-black my-8" style={{width: '330px'}}>
             Seize the spotlight in bustling areas with high-traffic visibility.
             Make your brand the center of attention with
           </p>
