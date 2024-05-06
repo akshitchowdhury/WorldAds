@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="flex flex-row my-28">
+        <div className="flex flex-row my-24">
         
         <img src={logo} alt="Logo" />
                 <h1 className="text-white my-2"> WorldAds</h1>
