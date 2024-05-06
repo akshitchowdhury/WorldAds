@@ -26,7 +26,7 @@ const Hero = () => {
           </span>
         </h1>
 
-        <h2 className="para text-sm text-white text-left w-1/5 "> {/* Adjusted this line */}
+        <h2 className="para text-sm text-white text-left w-auto "> {/* Adjusted this line */}
           At Worldads, we're revolutionizing location-based advertising by
           harnessing the power of smart rooftop digital screens. Our innovative
           platform delivers programmatic advertisements that are not only
