@@ -33,6 +33,31 @@
 
 }
 
+.NodeText button{
+transition: transform 0.3s ease;
+}
+
+.NodeText button:hover{
+    transform: scale(1.1);
+}
+
+    .RideText button{
+transition: transform 0.3s ease;
+}
+
+.RideText button:hover{
+    transform: scale(1.1);
+}
+
+
+    .AdText button{
+transition: transform 0.3s ease;
+}
+
+.AdText button:hover{
+    transform: scale(1.1);
+}
+
 .NodeText p{
     width: 400px;
 }
@@ -170,8 +195,12 @@ margin-top: 14%;
         width: 150px;
         margin-top: 10%;
         margin-left: 19%;
+        transition: transform 0.3s ease;
     }
-
+    
+    .NodeText button:hover{
+        transform: scale(1.1);
+    }
     .NodeText img{
         height: 0px;
     }
