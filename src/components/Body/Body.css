@@ -248,9 +248,122 @@ margin-top: 14%;
         padding: 5% ;
     }
 
-    
+    .outfit-ad{
+        margin-top: -40%;
+        width: 500px;
+        height: 30px;
+        margin-left: 9%;
+        
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30.24px;  ;
+        
+    }
+
+    .outfit-ad img{
+        
+        height: 0.7px;
+        margin-top: 19%;
+        margin-left: -2%;
+        width: 238px;
+        
+    }
+
+    .outfit-subAd{
+        width: 219px;
+        height: 40px;
+        margin-left: 5%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20.16px;
+    text-align: center;  
+    }
 
 
 
+
+    .outfit-hd{
+        
+        width: 500px;
+        height: 30px;
+        margin-left: 0%;
+        margin-top: 23%;
+        
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30.24px;  ;
+    }
+    .outfit-hdSubAd{
+        
+        width: 253px;
+        height: 40px;
+        margin-top: -10%;
+        margin-bottom: 30%;
+        margin-left: 2%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20.16px;
+    text-align: center;  
+    }
+
+    .outfit-hd img{
+        width: 238px;
+        height: 0.7px;
+        margin-top: 19%;
+        margin-left: 3%;
+        
+    }
+
+    .outfit-geofence{
+     
+        width: 234px;
+        height: 60px;
+        margin-left: 5%;
+        margin-top: -10%;
+        text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30.24px;  ;
+    }
+
+    .outfit-geofenceSubAd{
+
+        
+        width: 253px;
+        height: 40px;
+        margin-top: -10%;
+        margin-left: 5%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20.16px;
+    text-align: center;  
+    }
+
+    .outfit-geofence img{
+        height: 0px;
+    }
+
+    .AdText button{
+        margin-left: 17%;
+        width: 177px;
+    }
 
 }
