@@ -10,9 +10,9 @@ const Hero = () => {
     <>
     <div className="hero p-7">
     <Nav/>
-    <div className="flex items-center ">
+    <div className="flex  items-center ">
     
-      <div className="midSection  ">
+      <div className="midSection  flex flex-col md:flex-col">
         <h1 className="text-4xl text-white">
           <span>Empowering </span>
           <br/>

@@ -16,7 +16,7 @@ const Nav = () => {
     return (
         <>
             <div className="container px-12">
-                <img src={logo} alt="Logo" />
+                <img className='logoImg' src={logo} alt="Logo" />
                 <span className="text-white"> WorldAds</span>
                 {!showInput && (
                     <img

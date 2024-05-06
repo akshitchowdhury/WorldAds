@@ -25,6 +25,9 @@ h1{
     /* border: 2pt solid white; */
 }
 
+
+
+
 .para{
     width: 27%;
     margin-left: 70%;
@@ -58,4 +61,51 @@ h1{
     position: relative;
     top: 100px;
     left: 470px;
+}
+
+
+@media only screen and (max-width: 400px){
+    .hero{
+        height: 189vh;
+    }
+
+
+    .midSection h1{
+        text-align: center;
+        align-content: center;
+    }
+
+    .para{
+        margin-top: 10%;
+        color: white;
+        /* border: 3pt solid black; */
+        width: 110%;
+        text-align: center;
+        margin-left: -7%;
+    }
+
+    .searchBar{
+        
+        width: 330px;
+        height: auto;
+        position: relative;
+        left: -24%;
+    }
+
+    .searchBar button{
+        font-size: small;
+        line-height: 83%;
+    }
+
+    .discord{
+        margin-top: -12%;
+        width: 300px;
+        margin-left: 9%;
+    }
+
+    .gridImage{
+        height: auto;
+        width: auto;
+        margin-left: 7%;
+    }
 }

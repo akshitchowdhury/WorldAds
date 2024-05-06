@@ -22,10 +22,19 @@
     width: 156px;
     height: 155.93px;
 }
-
-.loading hr{
+.loading hr {
     background-color: rgba(192, 38, 7, 1);
     height: 30px;
-    width: 80%;
-        margin-top: 44%;
+    width: 0; /* Set initial width to 0 */
+    margin-top: 44%;
+    animation: increaseWidth 2s ease-in-out forwards; /* Animation properties */
+}
+
+@keyframes increaseWidth {
+    from {
+        width: 0; /* Start width */
+    }
+    to {
+        width: 80%; /* End width */
+    }
 }
