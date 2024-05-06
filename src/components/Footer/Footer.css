@@ -1,0 +1,20 @@
+
+.footer{
+    background-color: rgba(24, 24, 24, 1);
+    height: 77vh;
+}
+
+.footerImage{
+    position: relative;
+    left: 70%;
+    bottom: 12%
+}
+
+.outfit-footerCopyright{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(156, 156, 156, 1);
+  ;
+}

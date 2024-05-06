@@ -1,0 +1,127 @@
+
+.body{
+    height: auto;
+    margin-top: 20%;
+}
+
+.content1{
+    margin-left: 8%;
+}
+.content2{
+    margin-left: 8%;
+}
+.content3{
+    margin-left: 8%;
+    margin-top: -10%;
+}
+
+.content1 img{
+    height: 497px;
+    width: 493px;
+}
+.content2 img{
+    height: 597px;
+    width: 793px;
+}
+.content3 img{
+    width: 526px;
+    height: 764px;
+}
+
+.NodeText{
+    margin-top: 10%;
+
+}
+
+.NodeText p{
+    width: 400px;
+}
+.NodeText img{
+    margin-left: -25%;
+    margin-top: -14%;
+    width: 140px;
+    height: 125px;
+}
+
+.AdText{
+margin-top: 14%;
+}
+
+.outfit-ad{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 47.88px;  ;
+}
+.outfit-hd{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 47.88px;  ;
+}
+.outfit-geofence{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 47.88px;  ;
+}
+
+
+.outfit-subAd{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30.24px;  ;
+  width: 400px;
+  margin-top: 8%;
+  color: rgba(112, 112, 112, 1);
+}
+.outfit-geofenceSubAd{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30.24px;  ;
+  width: 400px;
+  margin-top: 18%;
+  color: rgba(112, 112, 112, 1);
+}
+.outfit-hdSubAd{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30.24px;  ;
+  width: 400px;
+  margin-top: 8%;
+  color: rgba(112, 112, 112, 1);
+}
+
+.outfit-ad img{
+    margin-top: -4%;
+    margin-left: 66%;
+    height: 2px;
+    width: 230px;
+}
+.outfit-hd img{
+    margin-top: -4%;
+    margin-left: 84%;
+    height: 2px;
+    width: 150px;
+}
+.outfit-geofence img{
+    margin-top: -14%;
+    margin-left: 70%;
+    height: 2px;
+    width: 200px;
+}
