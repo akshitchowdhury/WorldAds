@@ -46,7 +46,7 @@ const Hero = () => {
     <button className="bg-white  text-black font-bold h-10 -mx-2 py-2 px-4 rounded-full">Join waitlist</button>
 </div>
 {/* ---------------------------------Discord lgoo and text-------------------------------- */}
-<div className="discord flex flex-row mx-20 ">
+<div className="discord flex flex-row md:mx-20 ">
         <img src={discord}/>
         <div>
         <h1 className="outfit-text text-white font-thin">Stay updated. 
