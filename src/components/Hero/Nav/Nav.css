@@ -38,4 +38,41 @@
 .logoImg{
     margin-left: -20%;
 }
+
+.openMenu{
+ border-radius: 0%;
+ position: absolute;
+ left: 10%;
+ top:-2%;
+ width: 320px;
+ border-radius: 5%;
+ height: 266px;   
+ justify-content: center ;
+ 
+ background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white */
+ backdrop-filter: blur(16px);
+}
+
+.colBlock{
+    margin-top: 17%;
+    
+}
+
+.colBlock p{
+    font-size: medium;
+    margin-top: 7%;
+    margin-left: 25%;
+}
+
+.adPara{
+    width: 190px;
+}
+.colBlock img{
+    height: 40px;
+    position: relative;
+    bottom: 90%;
+    left: 60%;
+}
+
+
 }

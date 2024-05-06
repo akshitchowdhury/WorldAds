@@ -7,36 +7,37 @@ import logo from '../../assets/footerLogo.png';
 const Footer = () => {
   return (
     <>
-      <div className="footer p-20">
+      <div className="footer  md:p-20">
         <div
           className="blockOne flex flex-row gap-96"
           
         >
           <div className="footerText">
-            <h1 className="text-4xl text-white">
-              Innovating Digital
+            <h1 className="text-xl md:text-4xl text-white">
+              Innovating 
+              <span className="md:mx-2 ">Digital
+              </span>
               <br />
               <p> Advertising</p>
             </h1>
           </div>
           {/*right group TNC and Blog  */}
 
-          <div className="text-white max-w-96">
+          <div className="footContent text-white  md:max-w-96">
             <div
-              className="flex flex-row gap-20 my-8"
+              className=" flex flex-col text-white md:flex-row  md:gap-20 md:my-8"
               
             >
-              <p>Blog</p>
-              <p>Privacy Policy</p>
-            </div>
-            <div className="flex flex-row gap-9">
-              <p>Contact Us</p>
-              <p>Terms of Sevice</p>
+              <p className="my-5 md:my-0">Blog</p>
+              <p className="my-5 md:my-0">Privacy Policy</p>
+            
+              <p className="my-5 md:my-0">Contact Us</p>
+              <p className="my-5 md:my-0">Terms of Sevice</p>
             </div>
           </div>
         </div>
         
-        <div className="flex flex-row my-24">
+        <div className="WorldAds flex flex-col md:flex-row my-24">
         
         <img src={logo} alt="Logo" />
                 <h1 className="text-white my-2"> WorldAds</h1>

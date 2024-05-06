@@ -27,15 +27,15 @@ const Nav = () => {
                     />
                 )}
                 {showInput && (
-                    <div className="openMenu flex items-center bg-inherit border border-white rounded-full
+                    <div className="openMenu flex   md:items-center bg-inherit border border-white  rounded-full
                     p-4
-                    my-6 mx-16 max-w-auto h-12" style={{border: "2pt solid white"}}>
-                        <div className="flex-2 flex justify-between mx-26">
-                            <div className="flex items-center text-white text-sm w-full">
+                    my-6  md:mx-16 max-w-auto  h-12" style={{border: "2pt solid white"}}>
+                        <div className="flex-2 flex flex-row justify-between mx-26">
+                            <div className="colBlock flex flex-col md:flex-row items-center text-white text-sm w-full">
                                 <p className="mr-10">About</p>
                                 <p className="mr-10">Node Operators</p>
                                 <p className="mr-10">Ride & Earn</p>
-                                <p className="mr-12">Advertise With WorldAds</p>
+                                <p className="adPara mr-10">Advertise With WorldAds</p>
                                 <img
                                     onClick={toggleInput}
                                     src={X}
