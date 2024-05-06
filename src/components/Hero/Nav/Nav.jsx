@@ -27,9 +27,12 @@ const Nav = () => {
                     />
                 )}
                 {showInput && (
-                    <div className="openMenu flex   md:items-center bg-inherit border border-white  rounded-full
-                    p-4
-                    my-6  md:mx-16 max-w-auto  h-12" style={{border: "2pt solid white"}}>
+                    
+                    <div className="openMenu flex md:items-center bg-inherit border border-white rounded-full p-4 my-6 md:mx-16 max-w-auto h-12"
+    style={{
+        border: "2pt solid white",
+
+    }}>
                         <div className="flex-2 flex flex-row justify-between mx-26">
                             <div className="colBlock flex flex-col md:flex-row items-center text-white text-sm w-full">
                                 <p className="mr-10">About</p>
@@ -46,6 +49,7 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
+                    
                 )}
             </div>
         </>

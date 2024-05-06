@@ -25,7 +25,7 @@ const Footer = () => {
 
           <div className="footContent text-white  md:max-w-96">
             <div
-              className=" flex flex-col text-white md:flex-row  md:gap-20 md:my-8"
+              className=" grid grid-cols-1 text-white md:flex-row  md:gap-20 md:my-8"
               
             >
               <p className="my-5 md:my-0">Blog</p>

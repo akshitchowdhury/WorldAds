@@ -38,3 +38,24 @@
         width: 80%; /* End width */
     }
 }
+
+
+@media only screen and (max-width: 400px){
+    .loading h1{
+        	
+        font-size: large;
+        margin-left: -5%;
+    }
+
+    .loading img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .loading hr {
+        background-color: rgba(192, 38, 7, 1);
+    height: 10px;
+    width: 0; /* Set initial width to 0 */
+    margin-top: 124%;
+    }
+}

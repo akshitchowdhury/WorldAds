@@ -46,8 +46,12 @@ h1{
     
     background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
     backdrop-filter: blur(8px);
+    transition: transform 0.3s ease;
 }
 
+.searchBar button:hover{
+    transform: scale(1.1);
+}
 
 .outfit-text {
   font-family: "Outfit", sans-serif;
@@ -95,8 +99,12 @@ h1{
     .searchBar button{
         font-size: small;
         line-height: 83%;
-    }
+        transition: transform 0.3s ease;
+}
 
+.searchBar button:hover{
+    transform: scale(1.5);
+}
     .discord{
         margin-top: -12%;
         width: 300px;
