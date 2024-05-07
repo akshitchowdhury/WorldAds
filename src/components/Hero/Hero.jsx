@@ -8,12 +8,13 @@ import pointer from '../../assets/pointerHome.png'
 const Hero = () => {
   return (
     <>
-    <div className="hero p-7">
+    <div className="hero ">
     <Nav/>
     <div className="flex  items-center ">
     
-      <div className="midSection  flex flex-col md:flex-col">
-        <h1 className="text-4xl text-white">
+      <div className="midSection  flex flex-col ">
+      <div >
+        <h1 className="heroTitle text-4xl text-white">
           <span>Empowering </span>
           <br/>
           <span>
@@ -25,6 +26,7 @@ const Hero = () => {
           of-Home Advertising
           </span>
         </h1>
+        </div>
 
         <h2 className="para text-sm text-white text-center w-auto "> {/* Adjusted this line */}
           At Worldads, we're revolutionizing location-based advertising by
@@ -36,27 +38,26 @@ const Hero = () => {
       </div>
     </div>
     {/* ------------------------------------Search bar--------------------------------------- */}
-    <div className="searchBar flex items-center bg-inherit 
-    
-     border border-white rounded-full px-3 py-1
-    my-20 mx-16 
-     max-w-md h-12">
+    <div className="searchBar ">
 
-    <input type="text" className=" flex-1 bg-transparent focus:outline-none" placeholder="Enter your email address"/>
-    <button className="bg-white  text-black font-bold h-10 -mx-2 py-2 px-4 rounded-full">Join waitlist</button>
+    <input type="text" className=" searchInput bg-transparent focus:outline-none" placeholder="Enter your email address"/>
+    <button className="bg-white  text-black font-bold h-10  py-2 px-4 rounded-full">Join waitlist</button>
 </div>
 {/* ---------------------------------Discord lgoo and text-------------------------------- */}
-<div className="discord flex flex-row md:mx-20 ">
+<div className="discord ">
         <img src={discord}/>
-        <div>
+        
+    </div>
+    <div className="discordText">
         <h1 className="outfit-text text-white font-thin">Stay updated. 
         <br/>
 <p className="font-semibold">Join our discord community</p></h1>
 </div>
-    </div>
 {/* ------------------------------------Grid circle image--------------------------------------- */}
+    
+<img className="pointer" src={pointer}/>
     <div className="gridImage ">
-    <img className="pointer" src={pointer}/>
+    
     <img src={gridImg}/>
     </div>
 

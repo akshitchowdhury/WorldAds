@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import '../../../assets/fonts/style.css';
 import navButton from '../../../assets/navButton.png';
 import './Nav.css';
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/lgoTitleImg.png';
 import X from '../../../assets/Close_square@3x.png';
 
 const Nav = () => {
@@ -15,13 +15,13 @@ const Nav = () => {
 
     return (
         <>
-            <div className="container px-12">
+            <div className="container ">
                 <img className='logoImg' src={logo} alt="Logo" />
-                <span className="text-white"> WorldAds</span>
+                {/* <h1 className="text-white"> WorldAds</h1> */}
                 {!showInput && (
                     <img
                         src={navButton}
-                        className="image my-6 cursor-pointer"
+                        className="image  cursor-pointer"
                         onClick={toggleInput}
                         alt="Navigation Button"
                     />

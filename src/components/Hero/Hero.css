@@ -1,7 +1,7 @@
 .hero {
     background-image: radial-gradient(50% 50% at 50% 50%, #FC3603 11%, #BF2506 100%);
 
-    height: 110vh;
+    height: 796px;
 
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -18,36 +18,114 @@
 
 h1{
     font-family: 'Conthrax SemiBold';
+
 }
 
-.midSection{
-    margin-top: 5%;
-    margin-left: 5%;
-    /* border: 2pt solid white; */
+.midSection div{
+    width: 657px;
+height: 208px;
+position: absolute;
+top: 210px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.heroTitle{
+    font-family: Conthrax;
+font-size: 48px;
+font-weight: 600;
+line-height: 57.6px;
+text-align: left;
+
 }
 
 
 
 
 .para{
-    width: 27%;
-    margin-left: 70%;
-    margin-top: -13%;
+    font-family: Outfit;
+    position: absolute;
+font-size: 18px;
+font-weight: 300;
+line-height: 22.68px;
+text-align: left;
+width: 348px;
+height: 150px;
+top: 239px;
+left: 972px;
+gap: 0px;
+opacity: 0px;
+
 }
 
 .gridImage {
-    height: 500px;
-    width: 500px;
-    margin-top: -27%;
-    margin-left: 45%;
-    color: white;
+    width: 565px;
+height: 565px;
+top: 482px;
+left: 611px;
+gap: 0px;
+opacity: 0px;
+
+position: absolute;
+color: #FFFFFF;
 }
 
+
+.discord{
+    width: 41px;
+    height: 41px;
+    top: 688px;
+    left: 128px;
+    padding: 6.6px 1.03px 6.6px 1.03px;
+    gap: 0px;
+    opacity: 0px;
+    
+position: absolute;
+}
+
+.discordText{
+    width: 200px;
+height: 31px;
+top: 693px;
+left: 184px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: left;
+
+}
 .searchBar{
     
-    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
     backdrop-filter: blur(8px);
     transition: transform 0.3s ease;
+    width: 538px;
+height: 61px;
+top: 482px;
+left: 128px;
+gap: 0px;
+border-radius: 100px;
+
+border:1px solid #FFFFFF;
+opacity: 0px;
+position: absolute;
+}
+
+.searchBar button{
+    width: 165px;
+height: 51px;
+top: 4px;
+left: 367px;
+gap: 0px;
+border-radius: 100px ;
+opacity: 0px;
+position: absolute;
 }
 
 .searchBar button:hover{
@@ -61,11 +139,30 @@ h1{
   font-style: normal;
 }
 
-
+.searchInput{
+    width: 198px;
+height: 12px;
+top: 17px;
+left: 50px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 300;
+line-height: 22.68px;
+text-align: left;
+position: relative;
+}
 .pointer{
-    position: relative;
-    top: 100px;
-    left: 470px;
+    position: absolute;
+    width: 108px;
+    height: 156px;
+    top: 429.5px;
+    left: 1130.5px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    
 }
 
 

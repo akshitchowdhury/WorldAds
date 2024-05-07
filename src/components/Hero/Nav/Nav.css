@@ -1,15 +1,21 @@
-.container {
+/* .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .image {
-    margin-left: auto;
-    height: 50px;
-    width: 100px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+position: absolute;
+width: 103px;
+height: 57px;
+top: 50px;
+left: 1216px;
+gap: 0px;
+border-radius: 100px;
+border: 1pt solid #FFFFFF;
+opacity: 0px;
+
+
 }
 
 .image:hover{
@@ -23,6 +29,18 @@
   }
   
 
+
+.logoImg{
+
+    width: 193px;
+height: 42.35px;
+top: 57px;
+left: 120px;
+padding: 0px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
 
   
 @media only screen and (max-width: 400px){
