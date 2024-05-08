@@ -28,10 +28,10 @@ function App() {
         <div className='mainContent '>
         
 
-          {/* <Hero/> 
+          <Hero/> 
           <Body/>
-          <Footer/> */}
-          <Loader/>
+          <Footer/>
+          
         </div>
       )}
     </div>

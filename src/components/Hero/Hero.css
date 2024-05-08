@@ -171,53 +171,9 @@ position: relative;
     
 
 
-    /* .midSection h1{
-        text-align: center;
-        align-content: center;
-    }
-
-    .para{
-        margin-top: 10%;
-        color: white;
-        
-        width: 400px;
-        text-align: center;
-        margin-left: -7%;
-    }
-
-    .searchBar{
-        
-        width: 330px;
-        height: auto;
-        position: relative;
-        left: -17%;
-    }
-
-    .searchBar button{
-        font-size: small;
-        line-height: 83%;
-        transition: transform 0.3s ease;
-}
-
-.searchBar button:hover{
-    transform: scale(1.5);
-}
-    .discord{
-        margin-top: -12%;
-        width: 300px;
-        margin-left: 10%;
-    }
-
-    .gridImage{
-        height: auto;
-        width: auto;
-        margin-left: 7%;
-    } */
-
-
 
 .hero{
-    width: 390px;
+    width: 387px;
 height: 857px;
 gap: 0px;
 border-radius: 0px 0px 20px 20px;
