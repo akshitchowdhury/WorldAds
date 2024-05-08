@@ -495,7 +495,7 @@ height: 60.15px;
 top: 1282.15px;
 left: 200px;
 gap: 0px;
-opacity: 0px;
+;
 position: absolute;
     }
 
@@ -509,7 +509,7 @@ height: 80px;
 top: 1417px;
 left: 49px;
 gap: 0px;
-opacity: 0px;
+;
 font-family: Outfit;
 font-size: 16px;
 font-weight: 300;
@@ -538,7 +538,7 @@ top: 4px;
 left: 5px;
 gap: 0px;
 border-radius: 100px ;
-opacity: 0px;
+;
 border: 1px solid #181818;
 position: absolute;
 }
@@ -622,7 +622,7 @@ height: 10px;
 top: 10px;
 left: 43px;
 gap: 0px;
-opacity: 0px;
+;
 font-family: Outfit;
 font-size: 14px;
 font-weight: 600;
@@ -706,7 +706,7 @@ height: 0px;
 top: 2984px;
 left: 77px;
 gap: 0px;
-opacity: 0px;
+;
 border: 0.1px solid #FC3603;
 position: absolute;
 
@@ -731,7 +731,7 @@ position: absolute;
 height: 40px;
 top: 3054px;
 left: 69px;
-opacity: 0px;
+;
 font-family: Outfit;
 font-size: 16px;
 font-weight: 300;
@@ -785,7 +785,7 @@ top: 3322px;
 left: 106px;
 gap: 0px;
 border-radius: 100px ;
-opacity: 0px;
+;
 position: absolute;
 }
 

@@ -281,7 +281,7 @@ top: 518px;
 left: 35px;
 gap: 0px;
 border-radius: 100px ;
-opacity: 0px;
+;
 border: 1px solid #FFFFFF
 }
 
@@ -328,7 +328,7 @@ height: 31px;
 top: 616px;
 left: 123px;
 gap: 0px;
-opacity: 0px;
+;
 position: absolute;
 font-family: Outfit;
 font-size: 16px;
@@ -344,7 +344,7 @@ height: 311px;
 top: 702px;
 left: 40px;
 gap: 0px;
-opacity: 0px;
+;
 position: absolute;
 }
 }
