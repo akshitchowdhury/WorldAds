@@ -168,13 +168,7 @@ position: relative;
 
 
 @media only screen and (max-width: 390px){
-    .hero{
-        
-height: 857px;
-gap: 0px;
-border-radius: 0px 0px 20px 20px;
-
-    }
+    
 
 
     /* .midSection h1{
@@ -223,10 +217,11 @@ border-radius: 0px 0px 20px 20px;
 
 
 .hero{
-    width: 390px;
+    width: 350px;
 height: 857px;
 gap: 0px;
 border-radius: 0px 0px 20px 20px;
+overflow: hidden;
 
 }
 
@@ -234,7 +229,7 @@ border-radius: 0px 0px 20px 20px;
         width: 328px;
 height: 174px;
 top: 143px;
-left: 31px;
+left: 15px;
 gap: 0px;
 
 position: absolute;
@@ -242,7 +237,7 @@ position: absolute;
 
     .heroTitle{
         font-family: Conthrax;
-font-size: 32px;
+font-size: 29px;
 font-weight: 600;
 line-height: 38.4px;
 text-align: center;
@@ -250,14 +245,14 @@ text-align: center;
     }
 
     .para{
-        width: 316px;
+        width: 300px;
 height: 100px;
 top: 357px;
-left: 37px;
+left: 25px;
 gap: 0px;
 font-family: Outfit;
-font-size: 14px;
-font-weight: 300;
+font-size: 13px;
+font-weight: 200;
 line-height: 17.64px;
 text-align: center;
 color: #FFFFFF;
@@ -279,10 +274,10 @@ text-align: left;
 position: absolute;
     }
 .searchBar{
-    width: 332px;
-height: 53px;
+    width: 320px;
+height: 50px;
 top: 518px;
-left: 35px;
+left: 15px;
 gap: 0px;
 border-radius: 100px ;
 ;
@@ -292,8 +287,8 @@ border: 1px solid #FFFFFF
 .searchBar button{
     width: 117px;
 height: 40px;
-top: 5px;
-left: 207px;
+top: 4px;
+left: 197px;
 gap: 0px;
 border-radius: 100px ;
 
@@ -320,7 +315,7 @@ position: absolute;
     width: 41px;
 height: 41px;
 top: 611px;
-left: 67px;
+left: 60px;
 padding: 6.6px 1.03px 6.6px 1.03px;
 gap: 0px;
 position: absolute;
@@ -330,7 +325,7 @@ position: absolute;
     width: 200px;
 height: 31px;
 top: 616px;
-left: 123px;
+left: 116px;
 gap: 0px;
 ;
 position: absolute;
@@ -346,7 +341,7 @@ text-align: left;
     width: 311px;
 height: 311px;
 top: 702px;
-left: 40px;
+left: 25px;
 gap: 0px;
 ;
 position: absolute;

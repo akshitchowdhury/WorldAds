@@ -8,17 +8,20 @@ import iSmall from "../../assets/nodeSmallPointer.png";
 import line from "../../assets/bodyLine.png";
 import nodePointer from "../../assets/nodePointer.png";
 const Body = () => {
+  const isSmallScreen = window.innerWidth <= 390;
   return (
     <div className="body bg-white">
       {/* -----------------------------content1: Node operators------------------------------------------- */}
-      <div className="content1 p-6 flex flex-col md:flex-row  gap-36">
+      <div className="content1  md:flex-row  ">
         
         <img className="i1"  src={i1} />
         
+
+
         <div className=" NodeText">
-          <img className="nomralPointer" src={nodePointer} />
           
-        
+        <img className="nomralPointer hidden md:block" src={nodePointer} alt="Node Pointer" />
+
           <div>
 
         <img className="iSmall" src={iSmall}/>
@@ -109,8 +112,11 @@ const Body = () => {
             Reach your ideal audience at the right time and place.
           </p>
 
-          
-          <hr className="belowPrecision"></hr>
+          <div>
+            {/* Render the hr element with or without the className based on screen size */}
+            <hr className={`md:hidden`} />
+            <hr className={`hidden md:block belowPrecision `} />
+        </div>
       
           {/* --------------------------Dynamic HD 2nd point-------------------------------------- */}
           <p
@@ -131,7 +137,11 @@ const Body = () => {
             Captivate viewers with stunning, crystal-clear advertisements.
           </p>
 
-          <hr className="belowAdvertisements"></hr>
+          <div>
+            {/* Render the hr element with or without the className based on screen size */}
+            <hr className={`md:hidden`} />
+            <hr className={`hidden md:block belowAdvertisements `} />
+        </div>
 
 
           {/* --------------------------Geofenced campaign 3rd point-------------------------------------- */}
@@ -145,7 +155,11 @@ const Body = () => {
             Scalable Geofenced Campaigns
           </p>
           
-          <hr className="line3" />
+          <div>
+            {/* Render the hr element with or without the className based on screen size */}
+            <hr className={`md:hidden`} />
+            <hr className={`hidden md:block line3 `} />
+        </div>
           <p
             className="outfit-geofenceSubAd bg-white
           

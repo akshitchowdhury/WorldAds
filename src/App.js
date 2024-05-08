@@ -19,13 +19,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App overflow-hidden md:overflow-visible">
+    <div className="App ">
       {loading ? (
         <div className="loading-page">
         <Loader/>
         </div>
       ) : (
-        <div className='mainContent'>
+        <div className='mainContent '>
         
 
           <Hero/> 

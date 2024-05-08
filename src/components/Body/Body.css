@@ -465,9 +465,11 @@ border: 2px solid #7E7E7E33
 
 
 
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 390px){
 
 .body{
+    width: 350px;
+    overflow: hidden;
     
 }
 
@@ -475,7 +477,7 @@ border: 2px solid #7E7E7E33
         width: 191.45px;
 height: 193px;
 top: 1093px;
-left: 99px;
+left: 90px;
 gap: 0px;
 position: absolute;
     }
@@ -484,10 +486,10 @@ position: absolute;
         width: 294px;
 height: 18px;
 top: 1375px;
-left: 58px;
+left: 60px;
 gap: 0px;
 font-family: Conthrax;
-font-size: 26px;
+font-size: 24px;
 font-weight: 600;
 line-height: 31.2px;
 text-align: left;
@@ -498,23 +500,23 @@ position: absolute;
         width: 10px;
 height: 60.15px;
 top: 1282.15px;
-left: 200px;
+left: 177px;
 gap: 0px;
 ;
 position: absolute;
     }
 
-    .nomralPointer{
+    /* .nomralPointer{
         height: 0px;
         position: absolute;
         left: 2px;
     }
-    
+     */
     .NodePara{
         width: 292px;
 height: 80px;
 top: 1417px;
-left: 49px;
+left: 37px;
 gap: 0px;
 ;
 font-family: Outfit;
@@ -531,7 +533,7 @@ color:#030303;
     width: 177px;
 height: 50px;
 top: 1537px;
-left: 107px;
+left: 90px;
 gap: 0px;
 border-radius: 100px;
 
@@ -565,7 +567,7 @@ position: absolute;
     width: 460px;
 height: 534px;
 top: 1657px;
-left: -75px;
+left: -85px;
 gap: 0px;
 border-radius: 100px;
 position: absolute;
@@ -575,7 +577,7 @@ position: absolute;
     width: 196px;
 height: 18px;
 top: 1979px;
-left: 97px;
+left: 87px;
 gap: 0px;
 font-family: Conthrax;
 font-size: 26px;
@@ -589,7 +591,7 @@ position: absolute;
     width: 292px;
 height: 80px;
 top: 2021px;
-left: 49px;
+left: 39px;
 gap: 0px;
 color:#030303;
 ;
@@ -605,7 +607,7 @@ position: absolute;
     width: 177px;
 height: 50px;
 top: 2141px;
-left: 107px;
+left: 97px;
 gap: 0px;
 border-radius: 100px;
 
@@ -640,7 +642,7 @@ position: absolute;
 }
 
 
-.belowAdvertisements{
+/* .belowAdvertisements{
     width: 0px;
 height: 0px;
 position: absolute;
@@ -648,9 +650,9 @@ left: 2px;
 
 ;
 rotate: 0 deg;
-}
+} */
 
-.belowPrecision{
+/* .belowPrecision{
     width: 0px;
     height: 0px;
     position: absolute;
@@ -658,17 +660,17 @@ rotate: 0 deg;
     ;
     rotate: 0 deg;
     
-}
+} */
 
 
 .i3{
-    width: 222.87px;
-height: 323.71px;
+    width: 212.87px;
+height: 313.71px;
 top: 2291.14px;
-left: 84px;
+left: 74px;
 gap: 0px;
 border-radius: 250px ;
-border: 3px solid #FC3603;
+border: 1px solid #FC3603;
     
     position: absolute;
 }
@@ -677,10 +679,10 @@ border: 3px solid #FC3603;
     width: 339px;
 height: 60px;
 top: 2673px;
-left: 26px;
+left: 12px;
 gap: 0px;
 font-family: Conthrax;
-font-size: 32px;
+font-size: 30px;
 font-weight: 600;
 line-height: 38.4px;
 text-align: center;
@@ -691,7 +693,7 @@ position: absolute;
     width: 288px;
 height: 60px;
 top: 2765px;
-left: 52px;
+left: 45px;
 gap: 0px;
 font-family: Outfit;
 font-size: 16px;
@@ -706,7 +708,7 @@ position: absolute;
     width: 205px;
 height: 30px;
 top: 2874px;
-left: 94px;
+left: 80px;
 gap: 0px;
 font-family: Outfit;
 font-size: 24px;
@@ -719,7 +721,7 @@ position: absolute;
     width: 219px;
 height: 40px;
 top: 2912px;
-left: 87px;
+left: 77px;
 gap: 0px;
 font-family: Outfit;
 font-size: 16px;
@@ -733,7 +735,7 @@ position: absolute;
     width: 238px;
 height: 0px;
 top: 2984px;
-left: 77px;
+left: 67px;
 gap: 0px;
 ;
 border: 0.1px solid #FC3603;
@@ -745,7 +747,7 @@ position: absolute;
     width: 263px;
 height: 30px;
 top: 3016px;
-left: 64px;
+left: 54px;
 gap: 0px;
 font-family: Outfit;
 font-size: 24px;
@@ -759,7 +761,7 @@ position: absolute;
     width: 253px;
 height: 40px;
 top: 3054px;
-left: 69px;
+left: 59px;
 ;
 font-family: Outfit;
 font-size: 16px;
@@ -773,7 +775,7 @@ position: absolute;
     width: 238px;
 height: 0px;
 top: 3134px;
-left: 77px;
+left: 67px;
 gap: 0px;
 position: absolute;
 
@@ -783,7 +785,7 @@ border: 1px solid #FC3603}
     width: 234px;
 height: 60px;
 top: 3166px;
-left: 78px;
+left: 68px;
 gap: 0px;
 font-family: Outfit;
 font-size: 24px;
@@ -797,7 +799,7 @@ position: absolute;
     width: 253px;
 height: 40px;
 top: 3234px;
-left: 69px;
+left: 59px;
 gap: 0px;
 font-family: Outfit;
 font-size: 16px;
@@ -811,7 +813,7 @@ position: absolute;
     width: 177px;
 height: 50px;
 top: 3322px;
-left: 106px;
+left: 96px;
 gap: 0px;
 border-radius: 100px ;
 ;
@@ -826,12 +828,12 @@ height: 40px;
 width: 165px;
 }
 
-.line3{
+/* .line3{
     width: 0px;
 height: 0px;
 position: absolute;
 left: 2px;
 
-}
+} */
 
 }

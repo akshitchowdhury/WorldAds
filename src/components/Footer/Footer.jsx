@@ -4,7 +4,10 @@ import footerImage from '../../assets/footerImage.png'
 import "../../assets/fonts/style.css";
 
 import logo from '../../assets/footerLogo.png';
+
 const Footer = () => {
+
+  const isSmallScreen = window.innerWidth <= 390;
   return (
     <>
       <div className="footer  md:p-20">
@@ -42,8 +45,11 @@ const Footer = () => {
       <p className=" ">©2024 WorldAds Tech DAO LLC. All Right Reserved </p>
       
       </div>
-      <hr className="footerLine"
-       ></hr>
+      <div>
+            {/* Render the hr element with or without the className based on screen size */}
+            <hr className={`md:hidden`} />
+            <hr className={`hidden md:block footerLine bg-black`} />
+        </div>
         {/* Grid image */}
 
 

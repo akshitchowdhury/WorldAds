@@ -154,12 +154,14 @@ gap: 0px;
 position: absolute;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 390px){
 
 
     .footer{
         
-        width: 387px;
+   
+        width: 350px;
+        overflow: hidden;
 height: 746px;
 top: 3436px;
 gap: 0px;
@@ -169,11 +171,11 @@ position: absolute;
         width: 337px;
 height: 55px;
 top: 82px;
-left: 29px;
+left: 5px;
 gap: 0px;
 
 font-family: Conthrax;
-font-size: 29px;
+font-size: 27px;
 font-weight: 600;
 line-height: 34.8px;
 text-align: center;
@@ -185,7 +187,7 @@ position: absolute;
         width: 36px;
 height: 23px;
 top: 208px;
-left: 178px;
+left: 158px;
 gap: 0px;
 font-family: Outfit;
 font-size: 18px;
@@ -197,7 +199,7 @@ text-align: left;
     width: 111px;
 height: 23px;
 top: 255px;
-left: 140px;
+left: 125px;
 gap: 0px;
 font-family: Outfit;
 font-size: 18px;
@@ -211,7 +213,7 @@ position: absolute;
     width: 137px;
 height: 23px;
 top: 302px;
-left: 127px;
+left: 117px;
 gap: 0px;
 font-family: Outfit;
 font-size: 18px;
@@ -225,7 +227,7 @@ position: absolute;
     width: 89px;
     height: 23px;
     top: 349px;
-    left: 151px;
+    left: 135px;
     gap: 0px;
     font-family: Outfit;
     font-size: 18px;
@@ -239,7 +241,7 @@ position: absolute;
     width: 167px;
 height: 37.47px;
 top: 448px;
-left: 114px;
+left: 94px;
 gap: 0px;
 position: absolute;
 }
@@ -248,10 +250,10 @@ position: absolute;
     width: 319px;
 height: 18px;
 top: 509.47px;
-left: 38px;
+left: 47px;
 gap: 0px;
 font-family: Outfit;
-font-size: 14px;
+font-size: 12px;
 font-weight: 300;
 line-height: 18.2px;
 text-align: left;
@@ -261,20 +263,20 @@ position: absolute;
 .footerImage{
     width: auto;
 height: auto;
-top: 579px;
-left: 7px;
+top: 599px;
+left: 0px;
 gap: 0px;
 opacity: 0.6px;
 position: absolute;
 }
 
-.footerLine{
+/* .footerLine{
     width: 0px;
     height: 0px;
     left: 0px;
     right: 0px;
     position: absolute;
-}
+} */
 /* 
     .footContent{
         

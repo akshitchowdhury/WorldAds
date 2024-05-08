@@ -1,19 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Hero.css";
 import "../../assets/fonts/style.css";
 import Nav from "./Nav/Nav";
 import gridImg from '../../assets/gridImg.png'
 import discord from '../../assets/discord.png'
 import pointer from '../../assets/pointerHome.png'
+import '../../assets/fonts/style.css';
+import navButton from '../../assets/navButton.png';
+import './Nav/Nav.css';
+import logo from '../../assets/lgoTitleImg.png';
+import X from '../../assets/Close_square@3x.png';
+
 const Hero = () => {
+  const [showInput, setShowInput] = useState(false);
+
+  const toggleInput = () => {
+      setShowInput(!showInput);
+  };
   return (
     <>
     <div className="hero ">
-    <Nav/>
-    <div className=" ">
     
-      <div className="midSection  ">
+    
+    <div className="container ">
+                <img className='logoImg' src={logo} alt="Logo" />
+                <div className="midSection  ">
       <div >
+    
         <h1 className="heroTitle  text-white">
           <span>Empowering </span>
           
@@ -34,8 +47,44 @@ const Hero = () => {
           precise but also captivating, tailored to the vehicle's exact
           location and time
         </h2>
-      </div>
+      
     </div>
+                {/* <h1 className="text-white"> WorldAds</h1> */}
+                {!showInput && (
+                    <img
+                        src={navButton}
+                        className="image  cursor-pointer"
+                        onClick={toggleInput}
+                        alt="Navigation Button"
+                    />
+                    
+                )}
+                {showInput && (
+                    <>
+                    <div className="openMenu bg-inherit border border-white "
+    >
+                                
+                            
+                    </div>
+                    <div className='menuLinks'>
+                    <p className="about">About</p>
+                                <p className="nodeOp">Node Operators</p>
+                                <p className="ride">Ride & Earn</p>
+                                <p className="adWorld">Advertise With WorldAds</p>
+                                </div>
+                                <img
+                                    onClick={toggleInput}
+                                    src={X}
+                                    className="cross"
+                                    style={{ cursor: 'pointer' }}
+                                    alt="Close Button"
+                                />
+                                
+                    </>
+                )}
+                
+            </div>
+      
     {/* ------------------------------------Search bar--------------------------------------- */}
     <div className="searchBar ">
 

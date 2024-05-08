@@ -125,7 +125,7 @@ position: absolute;
 }
 
   
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 390px){
 
 /* .container{
     display: flex;
@@ -196,7 +196,7 @@ position: absolute;
     width: 52px;
 height: 28.78px;
 top: 37px;
-left: 314px;
+left: 270px;
 gap: 0px;
 border-radius: 50.49px;
 
@@ -205,23 +205,23 @@ border: 1.01px solid #FFFFFF
 }
 
 .openMenu{
-    width: 342px;
+    width: 322px;
 height: 266px;
 top: 34px;
-left: 24px;
+left: 15px;
 gap: 0px;
 position: absolute;
 border-radius: 20.49px ;
-background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
-backdrop-filter: blur(8px);
+background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+backdrop-filter: blur(12px);
 
-border: Mixed solid #FFFFFF
+border: 1px solid #FFFFFF
 }
 
 .about{
     width: 45px;
 height: 11px;
-left: 170px;
+left: 140px;
 top: 100px;
 gap: 0px;
 font-family: Outfit;
@@ -240,7 +240,7 @@ color: #FFFFFF;
     gap: 0px;
     
     top: 150px;
-    left: 140px;
+    left: 110px;
     gap: 0px;
     font-family: Outfit;
     font-size: 16px;
@@ -256,8 +256,8 @@ color: #FFFFFF;
     height: 11px;
     gap: 0px;
     
-    top: 200px;
-    left: 160px;
+    top: 195px;
+    left: 130px;
     gap: 0px;
     font-family: Outfit;
     font-size: 16px;
@@ -268,4 +268,39 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
+.adWorld{
+    width: 468px;
+    height: 11px;
+    gap: 0px;
+    
+    top: 235px;
+    left: 82px;
+    gap: 0px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: left;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+
+.cross{
+    width: 30px;
+height: 30px;
+top: 45px;
+left: 300px;
+gap: 0px;
+position: absolute;
+}
+
+.menuLinks{
+    width: 183pxpx;
+height: 134pxpx;
+top: -15px;
+left: 10px;
+gap: 30px;
+position: absolute;
+}
 }
