@@ -466,6 +466,11 @@ border: 2px solid #7E7E7E33
 
 
 @media only screen and (max-width: 490px){
+
+.body{
+    width: 390px;
+}
+
     .i1{
         width: 191.45px;
 height: 193px;
@@ -632,6 +637,25 @@ color: #000000;
 position: absolute;
 }
 
+
+.belowAdvertisements{
+    width: 0px;
+height: 0px;
+
+;
+rotate: 0 deg;
+}
+
+.belowPrecision{
+    width: 0px;
+    height: 0px;
+    
+    ;
+    rotate: 0 deg;
+    
+}
+
+
 .i3{
     width: 222.87px;
 height: 323.71px;
@@ -797,5 +821,11 @@ height: 40px;
 width: 165px;
 }
 
+.line3{
+    width: 0px;
+height: 0px;
+
+
+}
 
 }
