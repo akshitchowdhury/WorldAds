@@ -103,7 +103,7 @@ const Hero = () => {
 </div>
 {/* ------------------------------------Grid circle image--------------------------------------- */}
     
-<img className="pointer" src={pointer}/>
+<img className="pointer hidden md:block" src={pointer} alt="Node Pointer" />
     <div className="gridImage ">
     
     <img src={gridImg}/>

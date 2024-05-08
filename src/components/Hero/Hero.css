@@ -217,7 +217,7 @@ position: relative;
 
 
 .hero{
-    width: 350px;
+    width: 390px;
 height: 857px;
 gap: 0px;
 border-radius: 0px 0px 20px 20px;
@@ -346,4 +346,10 @@ gap: 0px;
 ;
 position: absolute;
 }
+/* 
+.pointer{
+    position: absolute;
+    left: 2px;
+    height: 0px;
+} */
 }

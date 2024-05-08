@@ -10,7 +10,7 @@ import nodePointer from "../../assets/nodePointer.png";
 const Body = () => {
   const isSmallScreen = window.innerWidth <= 390;
   return (
-    <div className="body bg-white">
+    <div className="body  bg-white">
       {/* -----------------------------content1: Node operators------------------------------------------- */}
       <div className="content1  md:flex-row  ">
         

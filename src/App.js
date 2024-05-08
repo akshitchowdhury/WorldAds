@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App ">
+    <div className="overflow-clip md:overflow-visible sm:overflow-hidden ">
       {loading ? (
         <div className="loading-page">
         <Loader/>
