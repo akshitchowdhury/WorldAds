@@ -468,7 +468,7 @@ border: 2px solid #7E7E7E33
 @media only screen and (max-width: 490px){
 
 .body{
-    width: 390px;
+    
 }
 
     .i1{
@@ -506,6 +506,8 @@ position: absolute;
 
     .nomralPointer{
         height: 0px;
+        position: absolute;
+        left: 2px;
     }
     
     .NodePara{
@@ -560,7 +562,7 @@ position: absolute;
 }
 
 .i2{
-    width: 465px;
+    width: 460px;
 height: 534px;
 top: 1657px;
 left: -75px;
@@ -641,6 +643,8 @@ position: absolute;
 .belowAdvertisements{
     width: 0px;
 height: 0px;
+position: absolute;
+left: 2px;
 
 ;
 rotate: 0 deg;
@@ -649,7 +653,8 @@ rotate: 0 deg;
 .belowPrecision{
     width: 0px;
     height: 0px;
-    
+    position: absolute;
+    left: 2px
     ;
     rotate: 0 deg;
     
@@ -824,7 +829,8 @@ width: 165px;
 .line3{
     width: 0px;
 height: 0px;
-
+position: absolute;
+left: 2px;
 
 }
 

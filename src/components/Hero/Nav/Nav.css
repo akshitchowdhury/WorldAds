@@ -204,4 +204,51 @@ position: absolute;
 border: 1.01px solid #FFFFFF
 }
 
+.openMenu{
+    width: 342px;
+height: 266px;
+top: 34px;
+left: 24px;
+gap: 0px;
+position: absolute;
+border-radius: 20.49px ;
+background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+backdrop-filter: blur(8px);
+
+border: Mixed solid #FFFFFF
+}
+
+.about{
+    width: 45px;
+height: 11px;
+left: 170px;
+top: 100px;
+gap: 0px;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.16px;
+text-align: left;
+position: absolute;
+color: #FFFFFF;
+
+}
+
+.nodeOp{
+    width: 118px;
+    height: 11px;
+    gap: 0px;
+    
+    top: 150px;
+    left: 140px;
+    gap: 0px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: left;
+    position: absolute;
+    color: #FFFFFF;
+}
+
 }

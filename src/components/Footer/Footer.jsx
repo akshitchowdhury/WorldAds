@@ -8,16 +8,13 @@ const Footer = () => {
   return (
     <>
       <div className="footer  md:p-20">
-        <div
-          className="blockOne flex flex-row gap-96"
-          
-        >
+
           <div className="footerText">
             <h1 className=" text-white">
               Innovating 
               Digital
               
-              <br />
+              
               <p> Advertising</p>
             </h1>
           </div>
@@ -33,7 +30,6 @@ const Footer = () => {
               <p className="contact">Contact Us</p>
               <p className="terms">Terms of Sevice</p>
             
-          </div>
         </div>
         
         <div className="WorldAds ">
