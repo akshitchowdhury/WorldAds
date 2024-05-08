@@ -30,7 +30,7 @@ function App() {
 
           <Hero/> 
           <Body/>
-          {/* <Footer/> */}
+          <Footer/>
           
         </div>
       )}

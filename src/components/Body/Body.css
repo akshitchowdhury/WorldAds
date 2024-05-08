@@ -357,11 +357,45 @@ color: #707070;
 ;
 }
 
-.outfit-ad img{
-    margin-top: -4%;
-    margin-left: 66%;
-    height: 2px;
-    width: 300px;
+.line1{
+    width: 310px;
+    height: 0px;
+    top: 2729px;
+    left: 1130px;
+    gap: 0px;
+    border: 1px solid #FC3603;
+    opacity: 0px;
+    
+position: absolute;
+}
+
+
+.line2{
+    width: 245px;
+    height: 0px;
+    top: 2940px;
+    left: 1195px;
+    gap: 0px;
+    opacity: 0px;
+    rotate: -0 deg;
+    position: absolute;
+    
+    border: 1px solid #FC3603;
+    
+}
+
+.line3{
+    width: 310px;
+    height: 0px;
+    top: 3149px;
+    left: 1130px;
+    gap: 0px;
+    opacity: 0px;
+    
+    position: absolute;
+    
+    border: 1px solid #FC3603;
+    
 }
 .outfit-hd img{
     margin-top: -4%;

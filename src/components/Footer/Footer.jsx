@@ -13,43 +13,41 @@ const Footer = () => {
           
         >
           <div className="footerText">
-            <h1 className="text-xl md:text-4xl text-white">
+            <h1 className=" text-white">
               Innovating 
-              <span className="md:mx-2 ">Digital
-              </span>
+              Digital
+              
               <br />
               <p> Advertising</p>
             </h1>
           </div>
           {/*right group TNC and Blog  */}
 
-          <div className="footContent text-white  md:max-w-96">
-            <div
-              className=" grid grid-cols-1  text-white md:grid-cols-2  md:gap-14 md:my-8"
-              
-            >
-              <p className="my-5 md:my-0">Blog</p>
-              <p className="my-5 md:my-0">Privacy Policy</p>
+          <div className="footContent text-white  ">
             
-              <p className="my-5 md:my-0">Contact Us</p>
-              <p className="my-5 md:my-0">Terms of Sevice</p>
-            </div>
+              
+            
+              <p className="blog">Blog</p>
+              <p className="privacyPolicy">Privacy Policy</p>
+            
+              <p className="contact">Contact Us</p>
+              <p className="terms">Terms of Sevice</p>
+            
           </div>
         </div>
         
-        <div className="WorldAds flex flex-col md:flex-row my-24">
+        <div className="WorldAds ">
         
         <img src={logo} alt="Logo" />
-                <h1 className="text-white my-2"> WorldAds</h1>
         </div>
       
       
-        <div className="outfit-footerCopyright -my-20 flex flex-row">
-      <p className=" text-sm">©2024 WorldAds Tech DAO LLC. All Right Reserved </p>
-      <hr className="w-1/3 my-2 mx-20"
-       style={{backgroundColor: "rgba(126, 126, 126, 0.2)"}}></hr>
-      </div>
+        <div className="outfit-footerCopyright ">
+      <p className=" ">©2024 WorldAds Tech DAO LLC. All Right Reserved </p>
       
+      </div>
+      <hr className="footerLine"
+       ></hr>
         {/* Grid image */}
 
 

@@ -1,8 +1,108 @@
 
 .footer{
     background-color: rgba(24, 24, 24, 1);
-    height: 70vh;
+    width: 1440px;
+height: 476px;
+top: 3527px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
 }
+
+.footerText{
+    width: 576px;
+height: 95px;
+top: 113px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+font-family: Conthrax;
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+
+}
+
+
+/* .footContent{
+    width: 279px;
+height: 77px;
+top: 122px;
+left: 1041px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+} */
+
+.blog{
+    width: 36px;
+height: 23px;
+top: 122px;
+left: 1041px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 500;
+line-height: 23.4px;
+text-align: left;
+position: absolute;
+color: #BCBCBC;
+;
+}
+
+.privacyPolicy{
+    width: 111px;
+height: 23px;
+top: 122px;
+left: 1183px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 500;
+line-height: 23.4px;
+text-align: left;
+position: absolute;
+color: #BCBCBC;
+}
+
+
+.contact{
+    width: 89px;
+height: 23px;
+top: 176px;
+left: 1041px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 500;
+line-height: 23.4px;
+text-align: left;
+position: absolute;
+color: #BCBCBC;
+}
+
+
+.terms{
+    width: 137px;
+height: 23px;
+top: 176px;
+left: 1183px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 500;
+line-height: 23.4px;
+text-align: left;
+color: #BCBCBC;
+position: absolute;
+}
+
 
 .footerImage{
     position: relative;
@@ -11,14 +111,44 @@
 }
 
 .outfit-footerCopyright{
-    font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  color: rgba(156, 156, 156, 1);
-  ;
+    width: 365px;
+height: 21px;
+top: 378px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.8px;
+text-align: left;
+position: absolute;
+color:  #9C9C9C;
+
+  
 }
 
+.footerLine{
+    width: 464px;
+height: 0px;
+top: 388px;
+left: 546px;
+gap: 0px;
+opacity: 0px;
+rotate: -0 deg;
+position: absolute;
+ border: 1px solid #7E7E7E33;
+}
+
+.WorldAds{
+    width: 167px;
+height: 37.47px;
+top: 312px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
 
 @media only screen and (max-width: 400px){
 

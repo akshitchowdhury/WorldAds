@@ -94,8 +94,9 @@ const Body = () => {
             text-black "
           >
             Precision Targeting
-            <img src={line}/>
+            
           </p>
+          <hr className="line1" />
           <p
             className="outfit-subAd bg-white
           
@@ -115,8 +116,9 @@ const Body = () => {
 
           >
             Dynamic HD Quality Ads
-            <img src={line}/>
           </p>
+          
+          <hr className="line2" />
           <p
             className="outfit-hdSubAd 
           
@@ -137,8 +139,9 @@ const Body = () => {
 
           >
             Scalable Geofenced Campaigns
-            <img className="l1" src={line}/>
           </p>
+          
+          <hr className="line3" />
           <p
             className="outfit-geofenceSubAd bg-white
           
