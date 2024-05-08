@@ -13,7 +13,7 @@ left: 1216px;
 gap: 0px;
 border-radius: 100px;
 border: 1pt solid #FFFFFF;
-opacity: 0px;
+;
 
 
 }
@@ -28,7 +28,7 @@ opacity: 0px;
     left: 578px;
     gap: 0px;
     border-radius: 100px ;
-    opacity: 0px;
+    ;
 position: absolute;
 border: 2px solid #FFFFFF;
 
@@ -43,7 +43,7 @@ height: 13px;
 top: 69px;
 left: 633px;
 gap: 0px;
-opacity: 0px;
+;
 font-family: Outfit;
 font-size: 18px;
 font-weight: 600;
@@ -58,7 +58,7 @@ height: 13px;
 top: 69px;
 left: 714px;
 gap: 0px;
-opacity: 0px;
+;
 font-family: Outfit;
 font-size: 18px;
 font-weight: 600;
@@ -75,7 +75,7 @@ position: absolute;
     top: 69px;
     left: 877px;
     gap: 0px;
-    opacity: 0px;
+    ;
     font-family: Outfit;
     font-size: 18px;
     font-weight: 600;
@@ -92,7 +92,7 @@ height: 13px;
 top: 69px;
 left: 1001px;
 gap: 0px;
-opacity: 0px;
+;
 font-family: Outfit;
 font-size: 18px;
 font-weight: 600;
@@ -109,7 +109,7 @@ height: 30px;
 top: 63px;
 left: 1265px;
 gap: 0px;
-opacity: 0px;
+;
 position: absolute;
 }
 .logoImg{
@@ -120,7 +120,7 @@ top: 57px;
 left: 120px;
 padding: 0px;
 gap: 0px;
-opacity: 0px;
+;
 position: absolute;
 }
 
