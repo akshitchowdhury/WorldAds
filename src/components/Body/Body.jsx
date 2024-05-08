@@ -38,7 +38,11 @@ const Body = () => {
             
           </p>
           <div
-            className="NodeBtnBorder "
+            className="NodeBtnBorder 
+
+
+            text-black font-bold 
+           rounded-full text-sm"
           >
           <button className="NodeBtn">
             <p>Join waitlist</p>
@@ -58,7 +62,10 @@ const Body = () => {
             Digital Screens turn miles into money, making every trip count.
           </p>
           <div
-            className="RideBtnBorder "
+            className="RideBtnBorder bg-white
+          
+            text-black font-bold 
+           rounded-full text-sm"
           >
           <button className="RideBtn">
             <p>Join waitlist</p>
@@ -145,7 +152,10 @@ const Body = () => {
           </p>
 
          <div
-            className="geofenceBtnBorder "
+            className="geofenceBtnBorder bg-white
+          
+            text-black font-bold 
+           rounded-full text-sm"
           >
           <button className="geofenceBtn">
             <p>Join waitlist</p>
