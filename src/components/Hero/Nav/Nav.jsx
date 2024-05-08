@@ -27,29 +27,24 @@ const Nav = () => {
                     />
                 )}
                 {showInput && (
-                    
-                    <div className="openMenu flex md:items-center bg-inherit border border-white rounded-full p-4 my-6 md:mx-16 max-w-auto h-12"
-    style={{
-        border: "2pt solid white",
-
-    }}>
-                        <div className="flex-2 flex flex-row justify-between mx-26">
-                            <div className="colBlock flex flex-col md:flex-row items-center text-white text-sm w-full">
-                                <p className="mr-10">About</p>
-                                <p className="mr-10">Node Operators</p>
-                                <p className="mr-10">Ride & Earn</p>
-                                <p className="adPara mr-10">Advertise With WorldAds</p>
+                    <>
+                    <div className="openMenu bg-inherit border border-white "
+    >
+                                
+                            
+                    </div>
+                    <p className="about">About</p>
+                                <p className="nodeOp">Node Operators</p>
+                                <p className="ride">Ride & Earn</p>
+                                <p className="adWorld">Advertise With WorldAds</p>
                                 <img
                                     onClick={toggleInput}
                                     src={X}
-                                    className="h-1/3 -mx-6 "
+                                    className="cross"
                                     style={{ cursor: 'pointer' }}
                                     alt="Close Button"
                                 />
-                            </div>
-                        </div>
-                    </div>
-                    
+                    </>
                 )}
             </div>
         </>

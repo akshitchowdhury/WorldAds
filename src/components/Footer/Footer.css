@@ -105,9 +105,13 @@ position: absolute;
 
 
 .footerImage{
-    position: relative;
-    left: 70%;
-    bottom: 17%
+    width: auto;
+    height: auto;
+    top: 289px;
+    left: 1000px;
+    gap: 0px;
+    opacity: 0.6px;
+    position: absolute;    
 }
 
 .outfit-footerCopyright{
