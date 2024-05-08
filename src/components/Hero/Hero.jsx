@@ -10,11 +10,11 @@ const Hero = () => {
     <>
     <div className="hero ">
     <Nav/>
-    <div className="flex  items-center ">
+    <div className=" ">
     
-      <div className="midSection  flex flex-col ">
+      <div className="midSection  ">
       <div >
-        <h1 className="heroTitle text-4xl text-white">
+        <h1 className="heroTitle  text-white">
           <span>Empowering </span>
           <br/>
           <span>
@@ -28,7 +28,7 @@ const Hero = () => {
         </h1>
         </div>
 
-        <h2 className="para text-sm text-white text-center w-auto "> {/* Adjusted this line */}
+        <h2 className="para  text-white  "> {/* Adjusted this line */}
           At Worldads, we're revolutionizing location-based advertising by
           harnessing the power of smart rooftop digital screens. Our innovative
           platform delivers programmatic advertisements that are not only
