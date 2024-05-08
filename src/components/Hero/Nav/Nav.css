@@ -127,7 +127,7 @@ position: absolute;
   
 @media only screen and (max-width: 400px){
 
-.container{
+/* .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -157,8 +157,8 @@ position: absolute;
  height: 266px;   
  justify-content: center ;
  
- background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white */
- backdrop-filter: blur(16px);
+ background-color: rgba(255, 255, 255, 0.4); 
+  backdrop-filter: blur(16px);
 }
 
 .colBlock{
@@ -180,7 +180,28 @@ position: absolute;
     position: relative;
     bottom: 90%;
     left: 60%;
+} */
+
+.logoImg{
+    width: 151px;
+height: 33.14px;
+top: 35px;
+left: 24px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
 }
 
+.image{
+    width: 52px;
+height: 28.78px;
+top: 37px;
+left: 314px;
+gap: 0px;
+border-radius: 50.49px;
+opacity: 0px;
+position: absolute;
+border: 1.01px solid #FFFFFF
+}
 
 }

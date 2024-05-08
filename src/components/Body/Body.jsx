@@ -20,12 +20,13 @@ const Body = () => {
           
         
           <div>
-            
-        <div className="iSmall "  >
-        <div className="ball">
-          
-        </div>
-        </div>
+
+        <img className="iSmall" src={iSmall}/>
+             
+        {/* <div className="iSmall "/>
+        <div className="ball"/> 
+           */}
+        
         
           </div>
           
@@ -53,11 +54,11 @@ const Body = () => {
 
       {/* -----------------------------content2: Ride and earn------------------------------------------- */}
 
-      <div className="content2  flex flex-col md:flex-row  ">
+      <div className="content2   md:flex-row  ">
         <div className=" RideText">
           
-          <h1 className="contentText text-4xl text-black ">Ride & Earn</h1>
-          <p className="text-black my-8">
+          <h1 className=" text-black ">Ride & Earn</h1>
+          <p className="text-black ">
             Transform every journey into a profitable venture. Our Smart Rooftop
             Digital Screens turn miles into money, making every trip count.
           </p>
@@ -72,13 +73,15 @@ const Body = () => {
           </button>
           </div>
         </div>
-        <div className="i2">
+        
+      </div>
+      <div className="i2">
         <img  src={i2} />
         </div>
-      </div>
       {/* -----------------------------content3: Advertise with WorldAds------------------------------------------- */}
-      <div className="content3  flex flex-col md:flex-row ">
-        <img className="i3" src={i3} />
+      <img className="i3" src={i3} />
+      <div className="content3   md:flex-row ">
+        
         <div className=" AdText">
           
           <h1 className="contentText  text-black ">

@@ -16,19 +16,18 @@ const Hero = () => {
       <div >
         <h1 className="heroTitle  text-white">
           <span>Empowering </span>
-          <br/>
-          <span>
+          
           Connections
-          </span>
-          <br/> Through Digital Out-
-          <br/>
-          <span>
+          
+           Through Digital Out-
+          
+          
           of-Home Advertising
-          </span>
+          
         </h1>
         </div>
 
-        <h2 className="para  text-white  "> {/* Adjusted this line */}
+        <h2 className="para  "> {/* Adjusted this line */}
           At Worldads, we're revolutionizing location-based advertising by
           harnessing the power of smart rooftop digital screens. Our innovative
           platform delivers programmatic advertisements that are not only
@@ -41,7 +40,7 @@ const Hero = () => {
     <div className="searchBar ">
 
     <input type="text" className=" searchInput bg-transparent focus:outline-none" placeholder="Enter your email address"/>
-    <button className="bg-white  text-black font-bold h-10  py-2 px-4 rounded-full">Join waitlist</button>
+    <button className="bg-white  text-black font-bold rounded-full"><p className="joinBtn"> Join waitlist</p></button>
 </div>
 {/* ---------------------------------Discord lgoo and text-------------------------------- */}
 <div className="discord ">

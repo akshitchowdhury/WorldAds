@@ -464,236 +464,338 @@ border: 2px solid #7E7E7E33
 /* ------------------------Responsive design below------------------------------- */
 
 
+
 @media only screen and (max-width: 490px){
-
-    .content1{
-        margin-top: 30%;
-    }
-
-    .content1 img{
-        margin-top: 30%;
-        margin-left: 10%;
+    .i1{
         width: 191.45px;
-        height: 193px;
+height: 193px;
+top: 1093px;
+left: 99px;
+gap: 0px;
+position: absolute;
     }
 
-    .NodeText h1{
-        margin-top: -74%;
-        margin-left: -5%;
-        font-size: 26px;
-        width: 300px;
-    }
-
-    .NodeText p{
-        margin-top: 4%;
-        margin-left: -5%;
-        width: 292px;
-        height: 80px;
-        text-align: center;
-    }
-
-    .NodeText button{
-        width: 150px;
-        margin-top: 10%;
-        margin-left: 19%;
-        transition: transform 0.3s ease;
-    }
-    
-    .NodeText button:hover{
-        transform: scale(1.1);
-    }
-    .NodeText img{
-        height: 0px;
+    .contentText{
+        width: 294px;
+height: 18px;
+top: 1375px;
+left: 58px;
+gap: 0px;
+font-family: Conthrax;
+font-size: 26px;
+font-weight: 600;
+line-height: 31.2px;
+text-align: left;
+position: absolute;
     }
 
     .iSmall{
-        position: absolute;
-        left: 187px;
-        top: 86em;
-        width: 100px;
-        height: 2px;
-        background-color: #FC3603;
-        transform-origin: left center;
-        transform: rotate(90deg);
-        
+        width: 10px;
+height: 60.15px;
+top: 1282.15px;
+left: 200px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
     }
 
-    .iSmall div{
-        /* position: absolute;
-        left: 189px;
-        top: 86em; */
-        border-radius: 50%;
-        margin-left: 90%;
-        margin-top: -9%;
-        width: 20px;
-        height: 20px;
-        background-color: #FC3603;
-        
-    }
-
-
-    .content2 img{
-        margin-top: -120%;
-        margin-left: -20%;
-        width: 665px;
-        height: 574px;
-    }
-
-    .RideText{
-        position: relative;
-        top: 300px
-         }
-
-    .RideText p{
-        text-align: center;
-    }
-
-    .RideText button{
-        margin-left: 20%;
-        width: 177px;
-    }
-
-    .content3 img{
-        width: 222.87px;
-        height: 323.71px;
-        margin-top: 50%;
-        margin-left: 10%;
-    }
-
-    .AdText h1{
-        position: relative;
-        top: -140px;
-        left: -35px;
-        width: 339px;
-        font-size: 32px;
-        text-align: center;
-    }
-
-    .adText{
-        
-        position: relative;
-        top: -140px;
-        left: -35px;
-        text-align: center;
-        padding: 5% ;
-    }
-
-    .outfit-ad{
-        margin-top: -40%;
-        width: 500px;
-        height: 30px;
-        margin-left: 9%;
-        
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 30.24px;  ;
-        
-    }
-
-    .outfit-ad img{
-        
-        height: 0.7px;
-        margin-top: 19%;
-        margin-left: -2%;
-        width: 238px;
-        
-    }
-
-    .outfit-subAd{
-        width: 219px;
-        height: 40px;
-        margin-left: 5%;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20.16px;
-    text-align: center;  
-    }
-
-
-
-
-    .outfit-hd{
-        
-        width: 500px;
-        height: 30px;
-        margin-left: 0%;
-        margin-top: 23%;
-        
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 30.24px;  ;
-    }
-    .outfit-hdSubAd{
-        
-        width: 253px;
-        height: 40px;
-        margin-top: -10%;
-        margin-bottom: 30%;
-        margin-left: 2%;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20.16px;
-    text-align: center;  
-    }
-
-    .outfit-hd img{
-        width: 238px;
-        height: 0.7px;
-        margin-top: 19%;
-        margin-left: 3%;
-        
-    }
-
-    .outfit-geofence{
-     
-        width: 234px;
-        height: 60px;
-        margin-left: 5%;
-        margin-top: -10%;
-        text-align: center;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 30.24px;  ;
-    }
-
-    .outfit-geofenceSubAd{
-
-        
-        width: 253px;
-        height: 40px;
-        margin-top: -10%;
-        margin-left: 5%;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20.16px;
-    text-align: center;  
-    }
-
-    .outfit-geofence img{
+    .nomralPointer{
         height: 0px;
     }
-
-    .AdText button{
-        margin-left: 17%;
-        width: 177px;
+    
+    .NodePara{
+        width: 292px;
+height: 80px;
+top: 1417px;
+left: 49px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: center;
+position: absolute;
+color:#030303;
+;
     }
+
+.NodeBtnBorder{
+    width: 177px;
+height: 50px;
+top: 1537px;
+left: 107px;
+gap: 0px;
+border-radius: 100px;
+
+position: absolute;
+}
+
+.NodeBtn{
+    width: 165px;
+height: 40px;
+top: 4px;
+left: 5px;
+gap: 0px;
+border-radius: 100px ;
+opacity: 0px;
+border: 1px solid #181818;
+position: absolute;
+}
+
+.NodeBtn p{
+    font-family: Outfit;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.64px;
+text-align: left;
+top: 10px;
+left: 47px;
+position: absolute;
+}
+
+.i2{
+    width: 465px;
+height: 534px;
+top: 1657px;
+left: -75px;
+gap: 0px;
+border-radius: 100px;
+position: absolute;
+}
+
+.RideText h1{
+    width: 196px;
+height: 18px;
+top: 1979px;
+left: 97px;
+gap: 0px;
+font-family: Conthrax;
+font-size: 26px;
+font-weight: 600;
+line-height: 31.2px;
+text-align: left;
+position: absolute;
+}
+
+.RideText p {
+    width: 292px;
+height: 80px;
+top: 2021px;
+left: 49px;
+gap: 0px;
+color:#030303;
+;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: center;
+position: absolute;
+}
+
+.RideBtnBorder{
+    width: 177px;
+height: 50px;
+top: 2141px;
+left: 107px;
+gap: 0px;
+border-radius: 100px;
+
+position: absolute;
+}
+
+.RideBtn{
+    width: 165px;
+height: 40px;
+top: 4px;
+left: 5px;
+gap: 0px;
+border-radius: 100px ;
+border: 1px solid #181818
+
+}
+
+.RideBtn p{
+    width: 76px;
+height: 10px;
+top: 10px;
+left: 43px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.64px;
+text-align: left;
+color: #000000;
+position: absolute;
+}
+
+.i3{
+    width: 222.87px;
+height: 323.71px;
+top: 2291.14px;
+left: 84px;
+gap: 0px;
+border-radius: 250px ;
+border: 3px solid #FC3603;
+    
+    position: absolute;
+}
+
+.AdText h1{
+    width: 339px;
+height: 60px;
+top: 2673px;
+left: 26px;
+gap: 0px;
+font-family: Conthrax;
+font-size: 32px;
+font-weight: 600;
+line-height: 38.4px;
+text-align: center;
+position: absolute;
+}
+
+.adText{
+    width: 288px;
+height: 60px;
+top: 2765px;
+left: 52px;
+gap: 0px;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: center;
+position: absolute;
+}
+
+
+.outfit-ad{
+    width: 205px;
+height: 30px;
+top: 2874px;
+left: 94px;
+gap: 0px;
+font-family: Outfit;
+font-size: 24px;
+font-weight: 500;
+line-height: 30.24px;
+text-align: left;
+position: absolute;
+}
+.outfit-subAd{
+    width: 219px;
+height: 40px;
+top: 2912px;
+left: 87px;
+gap: 0px;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: center;
+position: absolute;
+}
+
+.line1{
+    width: 238px;
+height: 0px;
+top: 2984px;
+left: 77px;
+gap: 0px;
+opacity: 0px;
+border: 0.1px solid #FC3603;
+position: absolute;
+
+}
+
+.outfit-hd{
+    width: 263px;
+height: 30px;
+top: 3016px;
+left: 64px;
+gap: 0px;
+font-family: Outfit;
+font-size: 24px;
+font-weight: 500;
+line-height: 30.24px;
+text-align: left;
+position: absolute;
+}
+
+.outfit-hdSubAd{
+    width: 253px;
+height: 40px;
+top: 3054px;
+left: 69px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: center;
+position: absolute;
+}
+
+.line2{
+    width: 238px;
+height: 0px;
+top: 3134px;
+left: 77px;
+gap: 0px;
+position: absolute;
+
+border: 1px solid #FC3603}
+
+.outfit-geofence{
+    width: 234px;
+height: 60px;
+top: 3166px;
+left: 78px;
+gap: 0px;
+font-family: Outfit;
+font-size: 24px;
+font-weight: 500;
+line-height: 30.24px;
+text-align: center;
+position: absolute;
+}
+
+.outfit-geofenceSubAd{
+    width: 253px;
+height: 40px;
+top: 3234px;
+left: 69px;
+gap: 0px;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: center;
+position: absolute;
+}
+
+.geofenceBtnBorder{
+    width: 177px;
+height: 50px;
+top: 3322px;
+left: 106px;
+gap: 0px;
+border-radius: 100px ;
+opacity: 0px;
+position: absolute;
+}
+
+.geofenceBtn{
+    top: 4px;
+left: 5px;
+position: absolute;
+height: 40px;
+width: 165px;
+}
+
 
 }

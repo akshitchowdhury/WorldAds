@@ -172,7 +172,7 @@ position: relative;
     }
 
 
-    .midSection h1{
+    /* .midSection h1{
         text-align: center;
         align-content: center;
     }
@@ -180,7 +180,7 @@ position: relative;
     .para{
         margin-top: 10%;
         color: white;
-        /* border: 3pt solid black; */
+        
         width: 400px;
         text-align: center;
         margin-left: -7%;
@@ -213,5 +213,137 @@ position: relative;
         height: auto;
         width: auto;
         margin-left: 7%;
+    } */
+
+
+
+.hero{
+    width: 390px;
+height: 857px;
+gap: 0px;
+border-radius: 0px 0px 20px 20px;
+
+}
+
+    .midSection div{
+        width: 328px;
+height: 174px;
+top: 143px;
+left: 31px;
+gap: 0px;
+
+position: absolute;
     }
+
+    .heroTitle{
+        font-family: Conthrax;
+font-size: 32px;
+font-weight: 600;
+line-height: 38.4px;
+text-align: center;
+
+    }
+
+    .para{
+        width: 316px;
+height: 100px;
+top: 357px;
+left: 37px;
+gap: 0px;
+font-family: Outfit;
+font-size: 14px;
+font-weight: 300;
+line-height: 17.64px;
+text-align: center;
+color: #FFFFFF;
+
+position: absolute;
+    }
+
+    .searchInput{
+        width: 154px;
+height: 10px;
+top: 22px;
+left: 27px;
+gap: 0px;
+font-family: Outfit;
+font-size: 14px;
+font-weight: 300;
+line-height: 17.64px;
+text-align: left;
+position: absolute;
+    }
+.searchBar{
+    width: 332px;
+height: 53px;
+top: 518px;
+left: 35px;
+gap: 0px;
+border-radius: 100px ;
+opacity: 0px;
+border: 1px solid #FFFFFF
+}
+
+.searchBar button{
+    width: 117px;
+height: 40px;
+top: 5px;
+left: 207px;
+gap: 0px;
+border-radius: 100px ;
+
+
+position: absolute;
+}
+
+.joinBtn{
+    width: 76px;
+height: 10px;
+top: 12px;
+left: 25px;
+gap: 0px;
+font-family: Outfit;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.64px;
+text-align: left;
+position: absolute;
+}
+
+
+.discord{
+    width: 41px;
+height: 41px;
+top: 611px;
+left: 67px;
+padding: 6.6px 1.03px 6.6px 1.03px;
+gap: 0px;
+position: absolute;
+}
+
+.discordText{
+    width: 200px;
+height: 31px;
+top: 616px;
+left: 123px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 300;
+line-height: 20.16px;
+text-align: left;
+
+}
+
+.gridImage{
+    width: 311px;
+height: 311px;
+top: 702px;
+left: 40px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
 }
