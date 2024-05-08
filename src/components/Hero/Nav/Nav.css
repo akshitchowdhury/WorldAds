@@ -188,7 +188,7 @@ height: 33.14px;
 top: 35px;
 left: 24px;
 gap: 0px;
-opacity: 0px;
+
 position: absolute;
 }
 
@@ -199,7 +199,7 @@ top: 37px;
 left: 314px;
 gap: 0px;
 border-radius: 50.49px;
-opacity: 0px;
+
 position: absolute;
 border: 1.01px solid #FFFFFF
 }
@@ -241,6 +241,23 @@ color: #FFFFFF;
     
     top: 150px;
     left: 140px;
+    gap: 0px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: left;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.ride{
+    width: 118px;
+    height: 11px;
+    gap: 0px;
+    
+    top: 200px;
+    left: 160px;
     gap: 0px;
     font-family: Outfit;
     font-size: 16px;
