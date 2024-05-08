@@ -1,22 +1,25 @@
 
 .loading{
     background-color: white;
-    height: 70vh;
+    height: 790px;
+    overflow: hidden;
 }
 
 .loading h1{
     position: absolute;
     width: 611px;
 height: 243px;
-top: 393.93px;
+top: 293.93px;
 left: 120px;
 gap: 0px;
-opacity: 0px;
 font-family: Conthrax;
 font-size: 78px;
 font-weight: 600;
 line-height: 93.6px;
 text-align: left;
+color:  #181818;
+;
+
 
 }
 
@@ -24,10 +27,9 @@ text-align: left;
     position: absolute;
     width: 156px;
     height: 155.93px;
-    top: 198px;
+    top: 108px;
     left: 120px;
-    gap: 0px;
-    opacity: 0px;
+    
     
 }
 .loading hr {
@@ -49,15 +51,30 @@ text-align: left;
 
 
 @media only screen and (max-width: 400px){
+    
+    .loading{
+        height: 490px;
+        overflow: hidden;
+    }
+    
     .loading h1{
         	
-        font-size: large;
-        margin-left: -5%;
+        margin-left: -25%;
+        width: 300px;
+font-family: Conthrax;
+font-size: 48px;
+font-weight: 600;
+line-height: 43.6px;
+text-align: left;
+color:  #181818;
     }
 
     .loading img{
         height: 100px;
         width: 100px;
+        position: absolute;
+        left: 24px;
+        top: 160px;
     }
 
     .loading hr {
